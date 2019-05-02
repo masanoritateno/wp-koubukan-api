@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.tournament_title{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1em;
+}
+
+.tournament_title h2{
+  margin:0;
+}
+
+.api_content{
+    padding: 1em;
+}
+
+.tournament_result_layout{
+    padding-left: 1em;
+    transition: all 1s linear;
+}
+
+.tournament_result_layout h3{
+  color:red;
+}
+
+.tournament_result_layout h4{
+  padding:0px;
+  margin:1em 0 0;
+}
+
+.tournament_title p,
+.tournament_result_layout p{
+  padding:0px;
+  margin:0px;
+}
+
+.collapse_button{
+  color:#606060;
+  padding:0.5em 0em;
+  margin: 1em 0 0;
+  cursor: pointer;
+  color: #1b8be0;
+  display: inline-block;
+}
